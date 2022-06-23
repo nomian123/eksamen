@@ -1,0 +1,262 @@
+body{
+  background-color: #000000;
+  max-width: 1500px;
+  margin: auto;
+  padding: 0px;
+  background-image: url('billeder/baggrundsbillede.jpg');
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  }
+
+  *{
+    /* gør så browseren ikke kan styre størrelser og dele af siden
+       så siden ikke ændre sig på forskellge browsere*/
+    all: unset;
+    display: revert;
+  }
+
+.title {
+  font-size: 70px;
+  text-align: right;
+  border: 1px;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  margin-left: 150px;
+}
+
+.title2 {
+  font-size: 50px;
+  text-align: right;
+  border: 1px;
+  margin-top: 0px;
+  margin-bottom: 170px;
+  margin-right: 15px;
+  margin-left: 150px;
+}
+
+
+.grid {
+  display: grid;
+  color: white;
+}
+
+.title-me {
+  font-size: 35px;
+  color: black;
+  background-color: #02FD5B;
+  margin-left: 0;
+}
+
+.title-me h1 {
+  margin-left: 5%;
+}
+
+.my-intro {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.text-me {
+  font-size: 20px;
+  margin: 3%;
+  margin-left: 10%;
+  border-style: solid;
+  border-color: #9D17C4;
+  padding: 20px;
+  text-align: justify;
+}
+
+.portrait {
+  max-height: 100%;
+  max-width: 100%;
+  height: 450px;
+  margin:3%;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 7%;
+}
+
+.title-photos {
+  font-size: 35px;
+  background-color: #02FD5B;
+}
+
+.title-photos h1 {
+  margin-left: 5%;
+}
+
+
+div.gallery {
+  margin: 5px;
+  margin-left: 43px;
+  margin-top: 40px;
+  border: 1px solid #9D17C4;
+  float: left;
+}
+
+div.gallery:hover {
+  border: 2px solid #9D17C4;
+  background-color: #9D17C4;
+}
+
+div.gallery img {
+  margin-left: 1px;
+  width: 300px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.title-video {
+  font-size: 35px;
+  background-color: black;
+  text-align: right;
+}
+
+.title-video1 {
+  font-size: 35px;
+  background-color: #02FD5B;
+  text-align: right;
+}
+
+.title-video1 h1 {
+  margin-right: 5%;
+}
+
+.video-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+ video {
+  width: 110%;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+.text-video {
+  color: white;
+  font-size: 20px;
+  margin: 3%;
+  margin-left: 20%;
+  margin-right: 5%;
+  border-style: solid;
+  border-color: #9D17C4;
+  padding: 20px;
+  text-align: justify;
+}
+
+.title-illustrations {
+  font-size: 35px;
+  background-color: #02FD5B;
+  text-align: left;
+}
+
+.text-illustrations {
+  font-size: 20px;
+  text-align: left;
+  text-align: justify;
+}
+
+.title-illustrations h1 {
+  margin-left: 5%;
+}
+
+.illustrations-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.lys {
+  background: url("billeder/lys2.png");
+  height: 300px;
+  width: 300px;
+  margin: 5%;
+  margin-left: 31%;
+  animation: play 2s steps(13) infinite;
+  object-fit: none;
+}
+
+@keyframes play {
+  0%{background-position: 0px;}
+  100% {background-position: -3888px;}
+}
+
+.text-illustrations {
+  text-align: left;
+  color: white;
+  background-color: #000000;
+  margin-left: 100px;
+  margin-top: 5%;
+  margin-bottom: 10px;
+  border-style: solid;
+  border-color: #9D17C4;
+  padding: 20px;
+  padding-bottom: 100px;
+  text-align: justify;
+}
+
+div.gallery2 {
+  margin: 5px;
+  margin-left: 43px;
+  margin-top: 40px;
+  border: 1px solid #9D17C4;
+  float: left;
+}
+
+div.gallery2:hover {
+  border: 2px solid #9D17C4;
+  background-color: #9D17C4;
+}
+
+div.gallery2 img {
+  margin-left: 1px;
+  width: 300px;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.contact {
+  font-size: 35px;
+  background-color: #02FD5B;
+  text-align: center;
+}
+
+.contact-info {
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+img{
+    max-height: 100%;
+    max-width: 100%;
+    height: 450px;
+    margin:3%;
+    margin-right: 40%;
+    margin-left: 8%;
+}
+
+.contact-text {
+  color: white;
+  font-size: 20px;
+  margin: 3%;
+  margin-left: 10%;
+  margin-top: 3%;
+  border-style: solid;
+  border-color: #9D17C4;
+  padding: 20px;
+  text-align: justify;
+}
+.contact-space {
+  margin-top: 10%;
+  line-height: 3;
+}
